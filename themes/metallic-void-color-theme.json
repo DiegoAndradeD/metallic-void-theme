@@ -29,7 +29,29 @@
         "editorLineNumber.foreground": "#353535",
         "editorLineNumber.activeForeground": "#707070",
         "peekView.border": "#bf616a",
-        "peekViewEditor.background": "#121212"
+        "peekViewEditor.background": "#121212",
+        "terminal.background": "#0f0f0f",
+        "terminal.foreground": "#d8dee9",
+        "terminalCursor.background": "#d8dee9",
+        "terminalCursor.foreground": "#bf616a",
+
+        "terminal.ansiBlack": "#2e3440",
+        "terminal.ansiRed": "#bf616a",
+        "terminal.ansiGreen": "#a3be8c",
+        "terminal.ansiYellow": "#ebcb8b",
+        "terminal.ansiBlue": "#81a1c1",
+        "terminal.ansiMagenta": "#b48ead",
+        "terminal.ansiCyan": "#88c0d0",
+        "terminal.ansiWhite": "#e5e9f0",
+
+        "terminal.ansiBrightBlack": "#4c566a",
+        "terminal.ansiBrightRed": "#d08770",
+        "terminal.ansiBrightGreen": "#8fbcbb",
+        "terminal.ansiBrightYellow": "#ebcb8b",
+        "terminal.ansiBrightBlue": "#5e81ac",
+        "terminal.ansiBrightMagenta": "#b48ead",
+        "terminal.ansiBrightCyan": "#8fbcbb",
+        "terminal.ansiBrightWhite": "#eceff4"
     },
     "tokenColors": [
         {
@@ -99,6 +121,18 @@
             "scope": ["meta.jsx.children", "text.html.basic"],
             "settings": {
                 "foreground": "#a0a0a0"
+            }
+        },
+        {
+            "scope": ["variable.other.property", "support.variable.property", "meta.object-literal.key"],
+            "settings": {
+                "foreground": "#b48ead"
+            }
+        },
+        {
+            "scope": ["meta.member.access.typescript"],
+            "settings": {
+                "foreground": "#b48ead"
             }
         }
     ]
