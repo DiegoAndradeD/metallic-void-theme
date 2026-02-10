@@ -1,0 +1,22 @@
+{
+  "name": "metallic-void",
+  "displayName": "Metallic Void",
+  "description": "A dark, metallic, and minimalist theme.",
+  "version": "0.0.1",
+  "publisher": "user",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Metallic Void",
+        "uiTheme": "vs-dark",
+        "path": "./themes/metallic-void-color-theme.json"
+      }
+    ]
+  }
+}
